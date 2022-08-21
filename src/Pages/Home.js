@@ -7,11 +7,10 @@ import Project from './Project';
 const Home = () => {
     return (
         <div>
-            <Intro></Intro>
-            <MyServices></MyServices>
-            <MySkills></MySkills>
-            <Project></Project>
-
+            <Intro/>
+            <MyServices/>
+            <MySkills/>
+            <Project/>
         </div>
     );
 };
