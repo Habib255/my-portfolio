@@ -1,4 +1,4 @@
-# This is My Portfolio website source code.
+# Here is My Portfolio website Details.
  
 
 ## Details of this website is--
@@ -15,9 +15,6 @@
 
 ## Fetures of this website
  
-* login system is integrated here
-* A valid(logged in) in user can Write Blog on this website.
-* buyer can give review on this website
 * A guest user can give feedback
 
 

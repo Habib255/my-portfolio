@@ -5,8 +5,8 @@ import moto from '../Images/moto.png'
 
 const Project = () => {
     return (
-        <div className='bg-gradient-to-b lg:bg-gradient-to-r from-zinc-700 to-slate-700 '>
-            <h2 className='text-center py-5 text-4xl font-mono font-semibold text-orange-300'>My Recent Projects</h2>
+        <div id='projects' className='py-20 bg-gradient-to-b lg:bg-gradient-to-r from-slate-700 to-slate-600 '>
+            <h2 className='text-center pb-5 text-4xl font-mono font-semibold text-orange-300'>My Recent Projects</h2>
             <div className='flex flex-wrap justify-center items-center gap-10 lg:gap-20'>
                 <div className="card card-compact w-96 bg-base-100 shadow-xl">
                     <figure><img className='h-64' src={idle} alt="Shoes" /></figure>
