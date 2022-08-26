@@ -25,14 +25,14 @@ const Contact = () => {
             <h1 className='text-4xl text-center py-10 font-mono'>Contact Information</h1>
             <div className='flex flex-wrap justify-evenly  items-center'>
                 <div>
-                    <div class="card-body text-2xl font-sharif items-center gap-5 text-center">
+                    <div className="card-body text-2xl font-sharif items-center gap-5 text-center">
                         <h2 className="text-3xl text-blue-600">Connect Me</h2>
                         <p className='text-xl'>Feel free to ask any queries.</p>
                         <p><span className='text-blue-400'><FontAwesomeIcon icon={faEnvelope} />  Gmail: </span> arhabib255@gmail</p>
                         <p><span className='text-blue-400'><FontAwesomeIcon icon={faPhone} />  Phone: </span> +8801943858558 </p>
                         <p><span className='text-blue-400'><FontAwesomeIcon icon={faLocationDot} />  Location: </span>Elephant Road, Dhaka </p>
 
-                        <div class="card-actions justify-evenly gap-8 text-4xl">
+                        <div className="card-actions justify-evenly gap-8 text-4xl">
                             <p className='text-xl pt-2 text-blue-400'>Social -</p>
                             <a href='https://www.facebook.com/Abdur.Rahman.Habib99' target='_blank' rel='noreferrer' className='hover:text-orange-600' title='Facebook'><FontAwesomeIcon icon={faFacebook} /></a>
                             <a href='https://twitter.com/ArHabib255' target='_blank' rel='noreferrer' className='hover:text-orange-600' title='Twitter'><FontAwesomeIcon icon={faTwitter} /></a>
@@ -45,36 +45,36 @@ const Contact = () => {
 
                 <div>
                     <form ref={form} onSubmit={sendEmail}>
-                        <div class="flex justify-center items-center shadow-2xl bg-base-100">
-                            <div class="card-body">
-                                <div class="form-control">
-                                    <label class="label">
-                                        <span class="label-text">Name</span>
+                        <div className="flex justify-center items-center shadow-2xl bg-base-100">
+                            <div className="card-body">
+                                <div className="form-control">
+                                    <label className="label">
+                                        <span className="label-text">Name</span>
                                     </label>
-                                    <input type="text" name='user_name' placeholder="Name" class="input input-bordered" required />
+                                    <input type="text" name='user_name' placeholder="Name" className="input input-bordered" required />
 
                                 </div>
-                                <div class="form-control">
-                                    <label class="label">
-                                        <span class="label-text">Email</span>
+                                <div className="form-control">
+                                    <label className="label">
+                                        <span className="label-text">Email</span>
                                     </label>
-                                    <input type="text" name='user_email' placeholder="email" class="input input-bordered" required />
+                                    <input type="text" name='user_email' placeholder="email" className="input input-bordered" required />
                                 </div>
-                                <div class="form-control">
-                                    <label class="label">
-                                        <span class="label-text">Subject</span>
+                                <div className="form-control">
+                                    <label className="label">
+                                        <span className="label-text">Subject</span>
                                     </label>
-                                    <input type="text" name='subject' placeholder="Subject" class="input input-bordered" />
+                                    <input type="text" name='subject' placeholder="Subject" className="input input-bordered" />
 
                                 </div>
-                                <div class="form-control">
-                                    <label class="label">
-                                        <span class="label-text">Message</span>
+                                <div className="form-control">
+                                    <label className="label">
+                                        <span className="label-text">Message</span>
                                     </label>
-                                    <textarea type="text" name='message' cols='50' placeholder="Type your message" class="input input-bordered" required />
+                                    <textarea type="text" name='message' cols='50' placeholder="Type your message" className="input input-bordered" required />
 
                                 </div>
-                                <div class="flex justify-center mt-5">
+                                <div className="flex justify-center mt-5">
                                     <input type='submit' value='Send Message' className="w-36 text-black btn bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500" />
                                 </div>
                             </div>

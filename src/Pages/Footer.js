@@ -5,10 +5,10 @@ import { faTwitter, faFacebook, faLinkedin, faWhatsapp, faTelegram } from '@fort
 const Footer = () => {
     return (
         <div>
-            <footer class="footer footer-center p-10 bg-base-200 text-base-content rounded">
+            <footer className="footer footer-center p-10 bg-base-200 text-base-content rounded">
 
                 <div>
-                    <div class="grid grid-flow-col gap-6 text-3xl">
+                    <div className="grid grid-flow-col gap-6 text-3xl">
 
                         <a href='https://www.facebook.com/Abdur.Rahman.Habib99' target='_blank' rel='noreferrer' className='hover:text-orange-600'><FontAwesomeIcon icon={faFacebook} /></a>
                         <a href='https://twitter.com/ArHabib255' className='hover:text-orange-600' target='_blank' rel='noreferrer' ><FontAwesomeIcon icon={faTwitter} /></a>

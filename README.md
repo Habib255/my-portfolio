@@ -9,7 +9,6 @@
 * skill and tools components
 * some recent project components
 * contact information
-* buyers review
 * feedback system
 * footer with social icon
 

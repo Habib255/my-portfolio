@@ -1,6 +1,5 @@
 import React from 'react';
 import { HashLink as Link } from "react-router-hash-link";
-
 import Image from '../Images/Yellow Happy Pride Month Colorful Facebook Profile Picture Instagram Post .png'
 
 const Intro = () => {
