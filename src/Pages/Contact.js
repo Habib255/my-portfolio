@@ -23,7 +23,7 @@ const Contact = () => {
     return (
         <div id='contact' className='py-10'>
             <h1 className='text-4xl text-center py-10 font-mono'>Contact Information</h1>
-            <div className='flex flex-wrap justify-evenly  items-center'>
+            <div className='flex flex-col justify-center lg:flex-row lg:justify-evenly  items-center'>
                 <div>
                     <div className="card-body text-2xl font-sharif items-center gap-5 text-center">
                         <h2 className="text-3xl text-blue-600">Connect Me</h2>
@@ -43,42 +43,42 @@ const Contact = () => {
                     </div>
                 </div>
 
-                <div>
+                <div className="card justify-center items-center shadow-2xl bg-base-100">
+
                     <form ref={form} onSubmit={sendEmail}>
-                        <div className="card flex justify-center items-center shadow-2xl bg-base-100">
-                            <div className="card-body">
-                                <div className="form-control">
-                                    <label className="label">
-                                        <span className="label-text">Name</span>
-                                    </label>
-                                    <input type="text" name='user_name' placeholder="Name" className="input input-bordered" required />
+                        <div className="card-body">
+                            <div className="form-control">
+                                <label className="label">
+                                    <span className="label-text">Name</span>
+                                </label>
+                                <input type="text" name='user_name' placeholder="Name" className="input input-bordered" required />
 
-                                </div>
-                                <div className="form-control">
-                                    <label className="label">
-                                        <span className="label-text">Email</span>
-                                    </label>
-                                    <input type="text" name='user_email' placeholder="email" className="input input-bordered" required />
-                                </div>
-                                <div className="form-control">
-                                    <label className="label">
-                                        <span className="label-text">Subject</span>
-                                    </label>
-                                    <input type="text" name='subject' placeholder="Subject" className="input input-bordered" required />
+                            </div>
+                            <div className="form-control">
+                                <label className="label">
+                                    <span className="label-text">Email</span>
+                                </label>
+                                <input type="text" name='user_email' placeholder="email" className="input input-bordered" required />
+                            </div>
+                            <div className="form-control">
+                                <label className="label">
+                                    <span className="label-text">Subject</span>
+                                </label>
+                                <input type="text" name='subject' placeholder="Subject" className="input input-bordered" required />
 
-                                </div>
-                                <div className="form-control">
-                                    <label className="label">
-                                        <span className="label-text">Message</span>
-                                    </label>
-                                    <textarea type="text" name='message' cols='40' placeholder="Type your message" className="input input-bordered" required />
+                            </div>
+                            <div className="form-control">
+                                <label className="label">
+                                    <span className="label-text">Message</span>
+                                </label>
+                                <textarea type="text" name='message' cols='40' placeholder="Type your message" className="input input-bordered" required />
 
-                                </div>
-                                <div className="flex justify-center mt-5">
-                                    <input type='submit' value='Send Message' className="w-36 text-black btn bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500" />
-                                </div>
+                            </div>
+                            <div className="flex justify-center mt-5">
+                                <input type='submit' value='Send Message' className="w-36 text-black btn bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500" />
                             </div>
                         </div>
+
                     </form>
 
                 </div>
