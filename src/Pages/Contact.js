@@ -45,7 +45,7 @@ const Contact = () => {
 
                 <div>
                     <form ref={form} onSubmit={sendEmail}>
-                        <div className="flex justify-center items-center shadow-2xl bg-base-100">
+                        <div className="card flex justify-center items-center shadow-2xl bg-base-100">
                             <div className="card-body">
                                 <div className="form-control">
                                     <label className="label">
@@ -64,14 +64,14 @@ const Contact = () => {
                                     <label className="label">
                                         <span className="label-text">Subject</span>
                                     </label>
-                                    <input type="text" name='subject' placeholder="Subject" className="input input-bordered" />
+                                    <input type="text" name='subject' placeholder="Subject" className="input input-bordered" required />
 
                                 </div>
                                 <div className="form-control">
                                     <label className="label">
                                         <span className="label-text">Message</span>
                                     </label>
-                                    <textarea type="text" name='message' cols='50' placeholder="Type your message" className="input input-bordered" required />
+                                    <textarea type="text" name='message' cols='40' placeholder="Type your message" className="input input-bordered" required />
 
                                 </div>
                                 <div className="flex justify-center mt-5">
